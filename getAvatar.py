@@ -4,10 +4,7 @@ import torch
 import io
 import ssl
 from flask_cors import CORS  # Import CORS
-import logging
 
-
-logging.basicConfig(level=logging.DEBUG)
 
 
 app = Flask(__name__)
